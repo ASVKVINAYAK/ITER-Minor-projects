@@ -1,0 +1,11 @@
+Enter the no of digit of each integer!
+6
+Enter the 4 6-digt integers!
+556283
+698123
+757957
+839685
+The key generated is 536123
+Enter the Message!
+Very difficult to break
+AHXZFLKIODWOYWUCTHFN

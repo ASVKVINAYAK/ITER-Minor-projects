@@ -1,0 +1,103 @@
+//***************************SOA LIBRARY MANAGEMENT SYSTEM********************************//
+//*************************** The world is quiet here **************************//
+Updating books in the Library 
+ 
+Enter the no of books to be updated in Library !!!
+2
+Enter details
+For Book 1
+Enter the Author  details 
+ 1>Name
+ 2>E-mail 
+ 3>Gender
+H C VERMA
+abc@gmail.com
+M
+Enter the details of the Book!
+ 1>Name
+ 2>Price 
+ 3>Quantity
+CONCEPTS OF PHYSICS
+260
+10
+For Book 2
+Enter the Author  details 
+ 1>Name
+ 2>E-mail 
+ 3>Gender
+MICHAEL T.GOODRICH
+xyz@gmail.com
+M
+Enter the details of the Book!
+ 1>Name
+ 2>Price 
+ 3>Quantity
+DATA STRUCTURES AND ALGORITHMS
+500
+20
+List of the Books are 
+1 : Book [name=CONCEPTS OF PHYSICS, price=260.0, qty=10, Author=Author [name=H C VERMA, email=abc@gmail.com, gender=M]]
+2 : Book [name=DATA STRUCTURES AND ALGORITHMS, price=500.0, qty=20, Author=Author [name=MICHAEL T.GOODRICH, email=xyz@gmail.com, gender=M]]
+ 
+  Student Section 
+ 
+Enter the no of Students details !
+2
+Enter the Student 1 Data! 
+  1>Name 
+  2>Roll
+Vinayak
+2434
+Enter the no of Books you Want to  Issue!!!
+2
+The Books present in Library are...
+1 : Book [name=CONCEPTS OF PHYSICS, price=260.0, qty=10, Author=Author [name=H C VERMA, email=abc@gmail.com, gender=M]]
+2 : Book [name=DATA STRUCTURES AND ALGORITHMS, price=500.0, qty=20, Author=Author [name=MICHAEL T.GOODRICH, email=xyz@gmail.com, gender=M]]
+Enter the Book no  you want to  issue!!!
+1
+Enter the date please! 1>DD 2>MM 3>YYYY 
+23
+2
+2020
+The Books present in Library are...
+1 : Book [name=CONCEPTS OF PHYSICS, price=260.0, qty=9, Author=Author [name=H C VERMA, email=abc@gmail.com, gender=M]]
+2 : Book [name=DATA STRUCTURES AND ALGORITHMS, price=500.0, qty=20, Author=Author [name=MICHAEL T.GOODRICH, email=xyz@gmail.com, gender=M]]
+Enter the Book no  you want to  issue!!!
+2
+Enter the no of Books you Wanna return!!!
+1
+Enter the book you want to return!
+1
+Please Enter your Return Date !
+14
+3
+2020
+Your fine for now is : 11
+Student [name=Vinayak, roll=2434, issueDate=Date [dd=23, mm=2, yyyy=2020], returnDate=Date [dd=14, mm=3, yyyy=2020]]
+Enter the Student 2 Data! 
+  1>Name 
+  2>Roll
+Ravi
+2343
+Enter the no of Books you Want to  Issue!!!
+1
+The Books present in Library are...
+1 : Book [name=CONCEPTS OF PHYSICS, price=260.0, qty=10, Author=Author [name=H C VERMA, email=abc@gmail.com, gender=M]]
+2 : Book [name=DATA STRUCTURES AND ALGORITHMS, price=500.0, qty=19, Author=Author [name=MICHAEL T.GOODRICH, email=xyz@gmail.com, gender=M]]
+Enter the Book no  you want to  issue!!!
+2
+Enter the date please! 1>DD 2>MM 3>YYYY 
+23
+2
+2020
+Enter the no of Books you Wanna return!!!
+1
+Enter the book you want to return!
+1
+Please Enter your Return Date !
+15
+3
+2020
+Your fine for now is : 11
+Student [name=Ravi, roll=2343, issueDate=Date [dd=23, mm=2, yyyy=2020], returnDate=Date [dd=15, mm=3, yyyy=2020]]
+//**************************************************************************//

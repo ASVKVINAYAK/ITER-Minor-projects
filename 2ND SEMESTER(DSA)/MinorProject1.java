@@ -331,7 +331,7 @@ class Date
 
 }
 
-public class Tester 
+public class MinorProject1 
 {
 
 	public static void main(String[] args)

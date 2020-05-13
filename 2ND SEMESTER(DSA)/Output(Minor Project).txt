@@ -1,0 +1,76 @@
+						****MENU*****
+
+					0:Exit
+					1:Enter polynomial function details 
+					2:Display polynomial functions 
+					3:Add polynomial functions 
+					4:Display polynomial functions after adding  
+enter your choice 
+1
+Enter 1st polynomial function 
+
+Enter the degree of the polynomial function 
+2
+Enter the cofficient of x^2
+3
+Enter the cofficient of x^1
+-4
+Enter the cofficient of x^0
+7
+
+Enter 2nd polynomial function 
+
+Enter the degree of the polynomial function 
+1
+Enter the cofficient of x^1
+9
+Enter the cofficient of x^0
+2
+
+						****MENU*****
+
+					0:Exit
+					1:Enter polynomial function details 
+					2:Display polynomial functions 
+					3:Add polynomial functions 
+					4:Display polynomial functions after adding  
+enter your choice 
+2
+Displaying  1st polynomial functions 
+3x^2 + -4x^1 + 7x^0
+Displaying  2nd polynomial functions 
+9x^1 + 2x^0
+
+						****MENU*****
+
+					0:Exit
+					1:Enter polynomial function details 
+					2:Display polynomial functions 
+					3:Add polynomial functions 
+					4:Display polynomial functions after adding  
+enter your choice 
+3
+Successfully Added the polynomial functions 
+
+						****MENU*****
+
+					0:Exit
+					1:Enter polynomial function details 
+					2:Display polynomial functions 
+					3:Add polynomial functions 
+					4:Display polynomial functions after adding  
+enter your choice 
+4
+Displaying polynomial functions after adding  
+3x^2 + 5x^1 + 9x^0
+
+						****MENU*****
+
+					0:Exit
+					1:Enter polynomial function details 
+					2:Display polynomial functions 
+					3:Add polynomial functions 
+					4:Display polynomial functions after adding  
+enter your choice 
+0
+Exiting The Program

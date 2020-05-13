@@ -10,7 +10,7 @@ class Nodes
 	}
 }
 
-public class MinorProject 
+public class MinorProject2 
 {
 
 	public static void main(String[] args) 

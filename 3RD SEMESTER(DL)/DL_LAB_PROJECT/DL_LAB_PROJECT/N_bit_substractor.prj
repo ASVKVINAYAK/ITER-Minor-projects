@@ -1,0 +1,3 @@
+verilog work "half_substractor.v"
+verilog work "full_substractor.v"
+verilog work "N_bit_substractor.v"

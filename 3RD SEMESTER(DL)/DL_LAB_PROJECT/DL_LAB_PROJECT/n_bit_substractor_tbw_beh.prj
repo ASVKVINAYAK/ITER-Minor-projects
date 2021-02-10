@@ -1,0 +1,5 @@
+verilog work "half_substractor.v"
+verilog work "full_substractor.v"
+verilog work "N_bit_substractor.v"
+verilog work "n_bit_substractor_tbw.tfw"
+verilog work "D:/dl xilux/verilog/src/glbl.v"

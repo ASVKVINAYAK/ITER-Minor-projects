@@ -1,0 +1,37 @@
+ command line:
+   ./n_bit_adder_tbw_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  53239
+
+Wed Feb 10 09:15:14 2021
+
+Total Line Count : 98
+
+ Elaboration time : 0.03125 sec.
+
+ Estimate current memory usage : 157.176 Meg. 
+
+ Total Signals          : 24
+ Total Nets             : 17
+ Total Signal Drivers   : 10
+ Total Blocks           : 9
+ Total Primitive Blocks : 3
+ Total Processes        : 13
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 132
+ntrace select -o on -n /n_bit_adder_tbw/sum 
+ntrace select -o on -n /n_bit_adder_tbw/carry_out 
+ntrace select -o on -n /n_bit_adder_tbw/a 
+ntrace select -o on -n /n_bit_adder_tbw/b 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Simulation time 0.078125 sec.
+
+ Estimate current memory usage : 162.816 Meg. 
+
+Wed Feb 10 12:15:54 2021
+

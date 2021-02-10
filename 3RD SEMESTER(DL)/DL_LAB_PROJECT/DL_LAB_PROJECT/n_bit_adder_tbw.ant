@@ -1,0 +1,144 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2007 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 9.2i
+//  \   \         Application : ISE
+//  /   /         Filename : n_bit_adder_tbw.ant
+// /___/   /\     Timestamp : Wed Feb 10 09:15:10 2021
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: n_bit_adder_tbw
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module n_bit_adder_tbw;
+    reg [1:0] a = 2'b00;
+    reg [1:0] b = 2'b00;
+    wire [1:0] sum;
+    wire carry_out;
+
+
+    N_bit_adder UUT (
+        .a(a),
+        .b(b),
+        .sum(sum),
+        .carry_out(carry_out));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin    // Annotation process
+        #0;
+        ANNOTATE_sum;
+        ANNOTATE_carry_out;
+        forever begin
+            #50;
+            ANNOTATE_sum;
+            ANNOTATE_carry_out;
+            #50;
+        end
+    end
+
+    initial begin  // Open the annotations file...
+        TX_FILE = $fopen("D:\\DL_LAB_PROJECT\\DL_LAB_PROJECT\\n_bit_adder_tbw.ano");
+        #2000 // Final time:  2000 ns
+        $display("Success! Annotation Simulation Complete.");
+        $fdisplay(TX_FILE, "Total[%d]", TX_ERROR);
+        $fclose(TX_FILE);
+        $finish;
+    end
+
+    initial begin
+        // -------------  Current Time:  200ns
+        #200;
+        b = 2'b01;
+        // -------------------------------------
+        // -------------  Current Time:  300ns
+        #100;
+        b = 2'b10;
+        // -------------------------------------
+        // -------------  Current Time:  400ns
+        #100;
+        b = 2'b11;
+        // -------------------------------------
+        // -------------  Current Time:  500ns
+        #100;
+        a = 2'b01;
+        b = 2'b00;
+        // -------------------------------------
+        // -------------  Current Time:  600ns
+        #100;
+        b = 2'b01;
+        // -------------------------------------
+        // -------------  Current Time:  700ns
+        #100;
+        b = 2'b10;
+        // -------------------------------------
+        // -------------  Current Time:  800ns
+        #100;
+        b = 2'b11;
+        // -------------------------------------
+        // -------------  Current Time:  900ns
+        #100;
+        a = 2'b10;
+        b = 2'b00;
+        // -------------------------------------
+        // -------------  Current Time:  1000ns
+        #100;
+        b = 2'b01;
+        // -------------------------------------
+        // -------------  Current Time:  1100ns
+        #100;
+        b = 2'b10;
+        // -------------------------------------
+        // -------------  Current Time:  1200ns
+        #100;
+        b = 2'b11;
+        // -------------------------------------
+        // -------------  Current Time:  1300ns
+        #100;
+        a = 2'b11;
+        b = 2'b00;
+        // -------------------------------------
+        // -------------  Current Time:  1400ns
+        #100;
+        b = 2'b01;
+        // -------------------------------------
+        // -------------  Current Time:  1500ns
+        #100;
+        b = 2'b10;
+        // -------------------------------------
+        // -------------  Current Time:  1600ns
+        #100;
+        b = 2'b11;
+        // -------------------------------------
+        // -------------  Current Time:  1700ns
+        #100;
+        a = 2'b10;
+    end
+
+    task ANNOTATE_sum;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,sum,%b]", $time, sum);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+    task ANNOTATE_carry_out;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,carry_out,%b]", $time, carry_out);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+endmodule
+

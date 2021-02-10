@@ -1,0 +1,1 @@
+xst -ise "D:/ITER/3rd Semester/DL LAB/DL_LAB_PROJECT/DL_LAB_PROJECT/DL_LAB_PROJECT.ise" -intstyle ise -ifn N_bit_substractor.xst -ofn N_bit_substractor.syr

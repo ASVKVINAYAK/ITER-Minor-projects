@@ -1,0 +1,3 @@
+MODULE n_bit_substractor_tbw
+SUBMODULE N_bit_substractor
+INSTANCE UUT

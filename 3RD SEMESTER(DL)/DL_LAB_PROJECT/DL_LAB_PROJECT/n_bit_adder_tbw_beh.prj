@@ -1,0 +1,5 @@
+verilog work "half_adder.v"
+verilog work "full_adder.v"
+verilog work "N_bit_adder.v"
+verilog work "n_bit_adder_tbw.tfw"
+verilog work "D:/dl xilux/verilog/src/glbl.v"

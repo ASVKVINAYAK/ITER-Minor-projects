@@ -1,0 +1,3 @@
+MODULE n_bit_adder_tbw
+SUBMODULE N_bit_adder
+INSTANCE UUT

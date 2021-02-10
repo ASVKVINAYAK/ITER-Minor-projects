@@ -1,0 +1,40 @@
+V3 40
+FL "D:/DL Projects/DL_LAB_PROJECT/full_adder.v" 2021/02/07.20:50:36 J.36
+FL "D:/DL Projects/DL_LAB_PROJECT/full_substractor.v" 2021/02/08.10:56:57 J.36
+FL "D:/DL Projects/DL_LAB_PROJECT/half_adder.v" 2021/02/07.20:51:01 J.36
+FL "D:/DL Projects/DL_LAB_PROJECT/half_substractor.v" 2021/02/08.10:58:02 J.36
+FL "D:/DL Projects/DL_LAB_PROJECT/N_bit_adder.v" 2021/02/08.11:02:39 J.36
+FL "D:/DL Projects/DL_LAB_PROJECT/n_bit_adder_tbw.tfw" 2021/02/08.19:17:16 J.36
+FL "D:/DL Projects/DL_LAB_PROJECT/N_bit_substractor.v" 2021/02/08.10:51:15 J.36
+FL "D:/DL Projects/DL_LAB_PROJECT/n_bit_substractor_tbw.tfw" 2021/02/08.19:21:15 J.36
+FL $XILINX/verilog/src/glbl.v 2007/05/19.02:52:56 J.36
+MO work/glbl FL $XILINX/verilog/src/glbl.v
+FL D:/DL_LAB_PROJECT/DL_LAB_PROJECT/full_adder.v 2021/02/08.20:15:38 J.36
+MO work/full_adder FL D:/DL_LAB_PROJECT/DL_LAB_PROJECT/full_adder.v
+FL D:/DL_LAB_PROJECT/DL_LAB_PROJECT/full_substractor.v 2021/02/08.20:15:38 J.36
+MO work/full_substractor FL D:/DL_LAB_PROJECT/DL_LAB_PROJECT/full_substractor.v
+FL D:/DL_LAB_PROJECT/DL_LAB_PROJECT/half_adder.v 2021/02/08.20:15:38 J.36
+MO work/half_adder FL D:/DL_LAB_PROJECT/DL_LAB_PROJECT/half_adder.v
+FL D:/DL_LAB_PROJECT/DL_LAB_PROJECT/half_substractor.v 2021/02/08.20:15:38 J.36
+MO work/half_substractor FL D:/DL_LAB_PROJECT/DL_LAB_PROJECT/half_substractor.v
+FL D:/DL_LAB_PROJECT/DL_LAB_PROJECT/N_bit_adder.v 2021/02/08.23:12:00 J.36
+MO work/N_bit_adder FL D:/DL_LAB_PROJECT/DL_LAB_PROJECT/N_bit_adder.v \
+      MI full_adder MI half_adder
+FL D:/DL_LAB_PROJECT/DL_LAB_PROJECT/n_bit_adder_tbw.tfw 2021/02/10.09:15:10 J.36
+MO work/n_bit_adder_tbw FL D:/DL_LAB_PROJECT/DL_LAB_PROJECT/n_bit_adder_tbw.tfw \
+      MI N_bit_adder
+FL D:/DL_LAB_PROJECT/DL_LAB_PROJECT/N_bit_substractor.v 2021/02/08.20:38:48 J.36
+MO work/N_bit_substractor FL D:/DL_LAB_PROJECT/DL_LAB_PROJECT/N_bit_substractor.v \
+      MI full_substractor MI half_substractor
+FL D:/DL_LAB_PROJECT/DL_LAB_PROJECT/n_bit_substractor_tbw.tfw 2021/02/09.19:32:34 J.36
+MO work/n_bit_substractor_tbw \
+      FL D:/DL_LAB_PROJECT/DL_LAB_PROJECT/n_bit_substractor_tbw.tfw \
+      MI N_bit_substractor
+FL "D:/ITER/3rd Semester/DL LAB/DL_LAB_PROJECT/DL_LAB_PROJECT/full_adder.v" 2021/02/08.20:15:36 J.36
+FL "D:/ITER/3rd Semester/DL LAB/DL_LAB_PROJECT/DL_LAB_PROJECT/full_substractor.v" 2021/02/08.20:15:36 J.36
+FL "D:/ITER/3rd Semester/DL LAB/DL_LAB_PROJECT/DL_LAB_PROJECT/half_adder.v" 2021/02/08.20:15:36 J.36
+FL "D:/ITER/3rd Semester/DL LAB/DL_LAB_PROJECT/DL_LAB_PROJECT/half_substractor.v" 2021/02/08.20:15:36 J.36
+FL "D:/ITER/3rd Semester/DL LAB/DL_LAB_PROJECT/DL_LAB_PROJECT/N_bit_adder.v" 2021/02/08.23:11:58 J.36
+FL "D:/ITER/3rd Semester/DL LAB/DL_LAB_PROJECT/DL_LAB_PROJECT/n_bit_adder_tbw.tfw" 2021/02/09.18:13:14 J.36
+FL "D:/ITER/3rd Semester/DL LAB/DL_LAB_PROJECT/DL_LAB_PROJECT/N_bit_substractor.v" 2021/02/08.20:38:46 J.36
+FL "D:/ITER/3rd Semester/DL LAB/DL_LAB_PROJECT/DL_LAB_PROJECT/n_bit_substractor_tbw.tfw" 2021/02/09.19:22:29 J.36
